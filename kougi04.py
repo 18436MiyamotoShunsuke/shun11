@@ -11,3 +11,18 @@ for i in range(10):
     print(i)
     if i ==3:
         break
+
+
+shincho = { "Akun":173,"Bkun":165,"Ckun":181,"Dkun":177,"Ekun":171 }
+
+print(shincho["Akun"])
+print(shincho["Bkun"])
+print(shincho["Ckun"])
+print(shincho["Dkun"])
+print(shincho["Ekun"])
+
+shincho["Fkun"]=175
+print(shincho)
+
+del shincho["Akun"]
+print(shincho)
